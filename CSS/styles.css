@@ -44,6 +44,7 @@ body{
     border-radius: 999px 999px 999px 999px;
     box-shadow: 1px 1px 1px 1px rgb(209, 202, 202);
     z-index: 1;
+    
 }
 
 
@@ -121,7 +122,7 @@ body{
 
 .btn a{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 17%;
     height: 22px;
     margin-left: 20px;
@@ -173,14 +174,14 @@ body{
 /*RESPOSIVE*/   
 
 
-@media (max-width: 1024px){
+@media screen and (max-width: 1024px){
 
     .logo{
         top: 6%;
     }
 }
 
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
 
     .logo{
         top: 8%;
@@ -188,7 +189,7 @@ body{
     }
 }
 
-@media (max-width: 540px){
+@media screen and (max-width: 540px ){
 
     .logo{
         top: 10%;
@@ -197,12 +198,12 @@ body{
 
 }
 
-@media (max-width: 375px){
 
+@media screen and (max-width: 414px){
     .logo{
         width: 80px;
         height: 100px;
-        top: 7%;
+        top: 9%;
     }
 
     .content{
@@ -223,4 +224,39 @@ body{
         width: 90%;
     }
 
+}
+
+@media  screen and (max-width: 375px){
+
+    .logo{
+        width: 80px;
+        height: 100px;
+        top: 10%;
+    }
+
+    .content{
+        width: 90%;
+        height: 586px;
+    }
+
+    .btn{
+        width: 100%;
+
+    }
+
+    .btn a{
+        width: 37%;
+    }
+
+    #footer{
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 360px){
+
+    .logo{
+        top: 9%;
+    }
 }
